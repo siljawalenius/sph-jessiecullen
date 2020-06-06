@@ -6,6 +6,8 @@ const easing = (x) =>{
     return x*x*x
 }
 
+console.log("hand coded by @siljawalenius")
+
 const fadeHeader = () =>{
     const pixels = window.pageYOffset
     headerTag.style.opacity = 1 - easing(pixels/(window.innerHeight /2))
